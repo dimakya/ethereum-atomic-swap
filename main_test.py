@@ -1,6 +1,8 @@
 import bitcoin as b
 from pyethereum import utils
 
+# penelopa crystal fork dimak
+
 def hash_list(l):
     def g(x):
         if type(x) in [int, long]: x=utils.int_to_big_endian(x)
